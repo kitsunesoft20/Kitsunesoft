@@ -14,6 +14,11 @@
    
 }
 
+@font-face{
+    font-family: chicken;
+    src: url(./fontes/Chicken\ Quiche.otf);
+}
+
 .menu {
     height: 15vh;
     background-color:SkyBlue;
@@ -59,8 +64,9 @@
 
 .box4{
     color: #000000;
-    font-size: 20px;
+    font-size: 45px;
     text-align: center;
+    font-family:chicken;
 }
 
 .box5{
