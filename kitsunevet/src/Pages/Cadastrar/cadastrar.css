@@ -7,7 +7,11 @@
 
 @font-face{
     font-family: chicken;
+<<<<<<< HEAD
     src: url(./fontes/Chicken\ Quiche.otf);
+=======
+    src: url(./Fontes/Chicken\ Quiche.otf);
+>>>>>>> 9ae5e68f6e1448f9f0e942a2ad21a63ddd77ee87
 }
 
 .inicio {
@@ -40,7 +44,11 @@
 
 .box4{
     font-family: chicken;
+<<<<<<< HEAD
     font-size: 55px;
+=======
+    font-size: 65px;
+>>>>>>> 9ae5e68f6e1448f9f0e942a2ad21a63ddd77ee87
 }
 
 .lista{
