@@ -7,11 +7,7 @@
 
 @font-face{
     font-family: chicken;
-<<<<<<< HEAD
     src: url(./fontes/Chicken\ Quiche.otf);
-=======
-    src: url(./Fontes/Chicken\ Quiche.otf);
->>>>>>> 9ae5e68f6e1448f9f0e942a2ad21a63ddd77ee87
 }
 
 .inicio {
