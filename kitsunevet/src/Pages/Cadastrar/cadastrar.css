@@ -1,0 +1,203 @@
+*{
+    border: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: personal;
+}
+
+@font-face{
+    font-family: chicken;
+    src: url(./fontes/Chicken\ Quiche.otf);
+}
+
+.inicio {
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+}
+
+.menu {
+    height: 15vh;
+    width: 100%;
+    background-color:SkyBlue;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.subcontainer{
+    width: 80vw;
+    height: 25vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    color: black;
+    padding: 30vh;
+}
+
+.box4{
+    font-family: chicken;
+    font-size: 55px;
+}
+
+.lista{
+    width: 55vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 21px;
+}
+
+.sep{
+    width: 2px;
+    height: 20px;
+    background-color: black;
+}
+
+.fera{
+    display:flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100vh;
+}
+
+.container3{
+    display: flex;
+    background-color:powderblue;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.container4{
+    display: flex;
+    background-color:powderblue;
+    flex-grow: 1;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container5{
+    display: flex;
+    background-color:powderblue;
+    flex-grow: 1;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.elsa form input{
+    font-size: 15px;
+    padding: 3px;
+    padding-left: 15px;
+    border: 1px solid black;
+    width: 150x;
+}
+
+.elsa{
+    font-size:20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 29vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.elsa select {
+    font-size:15px ;
+    padding: 7px;
+    padding-left: 7px;
+    width: 15vw;
+    border: 1px solid black;
+    border-radius: 16px;
+}
+
+.dsformularios{
+    height: 49vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.formularios{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.ana input {
+    background-color: white;
+    font-size: 19px;
+    padding: 7px;
+    border:1px solid black;
+    border-radius: 20px;
+    width: 12vw;
+    height: 6vh;
+}
+
+.rodape{
+    height: 40vh;
+    width: 100%;
+    background-color:black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.minicontainer5{
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.box8{
+    height: 15vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    font-size: 18px;
+    color:white;
+    width: 65vw;
+}
+
+.box8 p{
+    margin-right: 15px;
+}
+
+.box9{
+    display: flex;
+    flex-direction: row;
+    align-items: row;
+    width: 80vw;    
+    justify-content: space-between;
+}
+
+.minibox{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    font-size: 18px;
+    color: white;
+}
+
+.minibox p{
+    margin-left: 35px;
+}
+
+.minibox10{
+    font-size: 18px;
+    color:white;
+    margin-right: 15px;
+}
