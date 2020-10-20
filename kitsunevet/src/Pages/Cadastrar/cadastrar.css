@@ -28,14 +28,13 @@
 }
 
 .subcontainer{
-    width: 80vw;
+    width: 90vw;
     height: 25vh;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-end;
     color: black;
-    padding: 30vh;
 }
 
 .box4{
@@ -44,7 +43,7 @@
 }
 
 .lista{
-    width: 55vw;
+    width: 25vw;
     display: flex;
     flex-direction: row;
     align-items: center;
