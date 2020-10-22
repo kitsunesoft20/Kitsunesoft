@@ -12,20 +12,19 @@ namespace kitsunevet.Models
         [Column("id_banho_tosa")]
         public int IdBanhoTosa { get; set; }
         [Column("id_cliente")]
-        public int IdCliente { get; set; }
+        public int? IdCliente { get; set; }
         [Column("id_pet")]
-        public int IdPet { get; set; }
+        public int? IdPet { get; set; }
         [Column("ds_banho")]
-        public bool DsBanho { get; set; }
+        public bool? DsBanho { get; set; }
         [Column("ds_tosa")]
-        public bool DsTosa { get; set; }
+        public bool? DsTosa { get; set; }
         [Column("ds_unhas")]
-        public bool DsUnhas { get; set; }
+        public bool? DsUnhas { get; set; }
         [Column("ds_dentes")]
-        public bool DsDentes { get; set; }
+        public bool? DsDentes { get; set; }
         [Column("dt_banho_tosa", TypeName = "datetime")]
-        public DateTime DtBanhoTosa { get; set; }
-        [Required]
+        public DateTime? DtBanhoTosa { get; set; }
         [Column("ds_local", TypeName = "varchar(100)")]
         public string DsLocal { get; set; }
         [Column("ds_observacoes", TypeName = "varchar(255)")]

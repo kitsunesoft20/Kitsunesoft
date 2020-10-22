@@ -12,11 +12,9 @@ namespace kitsunevet.Models
         [Column("id_funcionario")]
         public int IdFuncionario { get; set; }
         [Column("id_login")]
-        public int IdLogin { get; set; }
-        [Required]
+        public int? IdLogin { get; set; }
         [Column("nm_funcionario", TypeName = "varchar(100)")]
         public string NmFuncionario { get; set; }
-        [Required]
         [Column("ds_emailpessoal", TypeName = "varchar(100)")]
         public string DsEmailpessoal { get; set; }
 

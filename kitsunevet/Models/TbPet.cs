@@ -21,29 +21,23 @@ namespace kitsunevet.Models
         [Column("id_pet")]
         public int IdPet { get; set; }
         [Column("id_cliente")]
-        public int IdCliente { get; set; }
-        [Required]
+        public int? IdCliente { get; set; }
         [Column("tp_pet", TypeName = "varchar(50)")]
         public string TpPet { get; set; }
-        [Required]
         [Column("nm_pet", TypeName = "varchar(100)")]
         public string NmPet { get; set; }
-        [Required]
         [Column("ds_sexo", TypeName = "varchar(50)")]
         public string DsSexo { get; set; }
-        [Required]
         [Column("ds_raca", TypeName = "varchar(100)")]
         public string DsRaca { get; set; }
-        [Required]
         [Column("ds_porte", TypeName = "varchar(50)")]
         public string DsPorte { get; set; }
-        [Required]
         [Column("ds_medicamentos", TypeName = "varchar(255)")]
         public string DsMedicamentos { get; set; }
         [Column("dt_nascimento", TypeName = "date")]
-        public DateTime DtNascimento { get; set; }
+        public DateTime? DtNascimento { get; set; }
         [Column("ds_peso", TypeName = "decimal(10,0)")]
-        public decimal DsPeso { get; set; }
+        public decimal? DsPeso { get; set; }
 
         [ForeignKey(nameof(IdCliente))]
         [InverseProperty(nameof(TbCliente.TbPet))]

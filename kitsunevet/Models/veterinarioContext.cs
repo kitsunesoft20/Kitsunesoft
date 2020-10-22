@@ -58,13 +58,11 @@ namespace kitsunevet.Models
                 entity.HasOne(d => d.IdClienteNavigation)
                     .WithMany(p => p.TbBanhoTosa)
                     .HasForeignKey(d => d.IdCliente)
-                    .OnDelete(DeleteBehavior.ClientSetNull)
                     .HasConstraintName("tb_banho_tosa_ibfk_2");
 
                 entity.HasOne(d => d.IdPetNavigation)
                     .WithMany(p => p.TbBanhoTosa)
                     .HasForeignKey(d => d.IdPet)
-                    .OnDelete(DeleteBehavior.ClientSetNull)
                     .HasConstraintName("tb_banho_tosa_ibfk_1");
             });
 
@@ -94,13 +92,11 @@ namespace kitsunevet.Models
                 entity.HasOne(d => d.IdClienteNavigation)
                     .WithMany(p => p.TbCirurgia)
                     .HasForeignKey(d => d.IdCliente)
-                    .OnDelete(DeleteBehavior.ClientSetNull)
                     .HasConstraintName("tb_cirurgia_ibfk_2");
 
                 entity.HasOne(d => d.IdPetNavigation)
                     .WithMany(p => p.TbCirurgia)
                     .HasForeignKey(d => d.IdPet)
-                    .OnDelete(DeleteBehavior.ClientSetNull)
                     .HasConstraintName("tb_cirurgia_ibfk_1");
             });
 
@@ -151,7 +147,6 @@ namespace kitsunevet.Models
                 entity.HasOne(d => d.IdLoginNavigation)
                     .WithMany(p => p.TbCliente)
                     .HasForeignKey(d => d.IdLogin)
-                    .OnDelete(DeleteBehavior.ClientSetNull)
                     .HasConstraintName("tb_cliente_ibfk_1");
             });
 
@@ -181,13 +176,11 @@ namespace kitsunevet.Models
                 entity.HasOne(d => d.IdClienteNavigation)
                     .WithMany(p => p.TbExames)
                     .HasForeignKey(d => d.IdCliente)
-                    .OnDelete(DeleteBehavior.ClientSetNull)
                     .HasConstraintName("tb_exames_ibfk_2");
 
                 entity.HasOne(d => d.IdPetNavigation)
                     .WithMany(p => p.TbExames)
                     .HasForeignKey(d => d.IdPet)
-                    .OnDelete(DeleteBehavior.ClientSetNull)
                     .HasConstraintName("tb_exames_ibfk_1");
             });
 
@@ -210,7 +203,6 @@ namespace kitsunevet.Models
                 entity.HasOne(d => d.IdLoginNavigation)
                     .WithMany(p => p.TbFuncionario)
                     .HasForeignKey(d => d.IdLogin)
-                    .OnDelete(DeleteBehavior.ClientSetNull)
                     .HasConstraintName("tb_funcionario_ibfk_1");
             });
 
@@ -236,13 +228,11 @@ namespace kitsunevet.Models
                 entity.HasOne(d => d.IdClienteNavigation)
                     .WithMany(p => p.TbHotel)
                     .HasForeignKey(d => d.IdCliente)
-                    .OnDelete(DeleteBehavior.ClientSetNull)
                     .HasConstraintName("tb_hotel_ibfk_2");
 
                 entity.HasOne(d => d.IdPetNavigation)
                     .WithMany(p => p.TbHotel)
                     .HasForeignKey(d => d.IdPet)
-                    .OnDelete(DeleteBehavior.ClientSetNull)
                     .HasConstraintName("tb_hotel_ibfk_1");
             });
 
@@ -295,7 +285,6 @@ namespace kitsunevet.Models
                 entity.HasOne(d => d.IdClienteNavigation)
                     .WithMany(p => p.TbPet)
                     .HasForeignKey(d => d.IdCliente)
-                    .OnDelete(DeleteBehavior.ClientSetNull)
                     .HasConstraintName("tb_pet_ibfk_1");
             });
 
@@ -325,13 +314,11 @@ namespace kitsunevet.Models
                 entity.HasOne(d => d.IdClienteNavigation)
                     .WithMany(p => p.TbVacinacao)
                     .HasForeignKey(d => d.IdCliente)
-                    .OnDelete(DeleteBehavior.ClientSetNull)
                     .HasConstraintName("tb_vacinacao_ibfk_2");
 
                 entity.HasOne(d => d.IdPetNavigation)
                     .WithMany(p => p.TbVacinacao)
                     .HasForeignKey(d => d.IdPet)
-                    .OnDelete(DeleteBehavior.ClientSetNull)
                     .HasConstraintName("tb_vacinacao_ibfk_1");
             });
 

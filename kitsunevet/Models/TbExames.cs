@@ -12,15 +12,13 @@ namespace kitsunevet.Models
         [Column("id_exames")]
         public int IdExames { get; set; }
         [Column("Id_cliente")]
-        public int IdCliente { get; set; }
+        public int? IdCliente { get; set; }
         [Column("id_pet")]
-        public int IdPet { get; set; }
-        [Required]
+        public int? IdPet { get; set; }
         [Column("ds_exame", TypeName = "varchar(100)")]
         public string DsExame { get; set; }
         [Column("dt_exame", TypeName = "datetime")]
-        public DateTime DtExame { get; set; }
-        [Required]
+        public DateTime? DtExame { get; set; }
         [Column("ds_local", TypeName = "varchar(100)")]
         public string DsLocal { get; set; }
         [Column("ds_observacoes", TypeName = "varchar(255)")]
