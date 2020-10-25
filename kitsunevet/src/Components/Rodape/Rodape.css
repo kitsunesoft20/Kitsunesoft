@@ -1,0 +1,31 @@
+.rodape{
+    height: 40vh;
+    width: 100%;
+    background-color:black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 80vw;    
+    justify-content: space-between;
+}
+
+.minibox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 18px;
+    color: white;
+    width: 30vw;
+}
+
+.copyright{
+    font-size: 18px;
+    color:white;
+}

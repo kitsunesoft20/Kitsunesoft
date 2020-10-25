@@ -3,7 +3,7 @@ import React from 'react';
 import './cabecalho.css';
 import logo from './Kitsunelogo.png';
 
-export default function cabecalho() {
+export default function Cabecalho() {
     return(
 
         <div className="menu">

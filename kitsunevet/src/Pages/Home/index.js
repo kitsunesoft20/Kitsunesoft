@@ -1,9 +1,9 @@
-
 import React from 'react';
-import './home.css';
-import cabecalho from '../../Components/Cabecalho';
+import {Link} from 'react-router-dom';
 
-//Import de Imagens abaixo
+import './home.css';
+import Cabecalho from '../../Components/Cabecalho';
+import Rodape from '../../Components/Rodape';
 
 import exames from './imagens/exames.png';
 import cirurgia from './imagens/cirurgia.png';
@@ -17,7 +17,7 @@ export default function Home()  {
 
     <div classNameName="inicio">
 
-        <cabecalho/>
+        <Cabecalho />
 
         <div className="servicos">
 
@@ -34,7 +34,7 @@ export default function Home()  {
                 <div className="subbox"> 
                     <img src={vacina} width="120px" height="120px" alt="NotFound"/>
                     <div className="minibox"> <h3>Vacinas</h3> </div>
-                    <div className="A"> <button type="button">Agendar</button> </div>
+                    <div className="A"> <Link to="/agendamentovacina"> <button type="button">Agendar</button> </Link> </div>
                 </div>
 
                 <div className="subbox"> 
@@ -61,32 +61,7 @@ export default function Home()  {
     
     </div>
 
-    <div className="rodape">
-                
-        <div className="box9">
-
-            <div className="miniboxrodape">
-
-                <p> Serviços</p>
-                <div className="sep"> </div>
-
-                <p> Privacidade</p>
-                <div className="sep"> </div>
-
-                <p> Ajuda</p>
-                <div className="sep"> </div>
-
-                <p> Kitsune</p>
-                  
-            </div>
-
-            <div className="copyright">
-                <p>© 2020 Kitsunesoft BR</p> 
-            </div>
-
-        </div>
-    
-    </div>
+    <Rodape />
 
     </body>
 
