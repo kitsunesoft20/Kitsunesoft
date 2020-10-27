@@ -90,36 +90,28 @@
     justify-content: flex-end;
 }
 
-.elsa form input{
+.elsa form input, select{
     font-size: 15px;
     padding: 3px;
     padding-left: 15px;
     border: 1px solid black;
-    width: 150x;
+    border-radius: 16px;
+    width: 20vw;
+    height: 4vh;
+    box-shadow: 5px 5px 5px gray;
 }
 
 .elsa{
     font-size:20px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    width: 29vw;
+    width: 37vw;
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.elsa select {
-    font-size:15px ;
-    padding: 7px;
-    padding-left: 7px;
-    width: 15vw;
-    border: 1px solid black;
-    border-radius: 16px;
+    justify-content: space-evenly;
 }
 
 .dsformularios{
-    height: 49vh;
+    height: 55vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -127,7 +119,7 @@
 }
 
 .formularios{
-    height: 50vh;
+    height: 55vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -180,4 +172,20 @@
 .copyright{
     font-size: 18px;
     color:white;
+}
+
+button{
+    background-color: white;
+    font-size: 16px;
+    border:2px solid black;
+    border-radius: 15px;
+    width: 8vw;
+    height: 5vh;
+    font-weight: bold;
+}
+
+button:hover{
+    box-shadow: 5px 5px 5px gray;
+    cursor: pointer;
+    border: goldenrod solid 2px;
 }

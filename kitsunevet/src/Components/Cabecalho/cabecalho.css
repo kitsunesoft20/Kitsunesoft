@@ -1,5 +1,5 @@
 .menu{
-    height: 12vh;
+    height: 14vh;
     width: 100%;
     background-color:SkyBlue;
     display: flex;
@@ -24,10 +24,21 @@
     align-items: center;
     justify-content: space-between;
     font-size: 21px;
+    color: white;
+}
+
+.itensmenu a{
+    text-decoration: none;
+    color: white;
+}
+
+.itensmenu a:hover{
+    text-shadow: 5px 5px 5px gray;
 }
 
 .sep{
-    width: 2px;
-    height: 20px;
-    background-color: black;
+    width: 4px;
+    height: 26px;
+    background-color: white;
+    border-radius: 25px;
 }

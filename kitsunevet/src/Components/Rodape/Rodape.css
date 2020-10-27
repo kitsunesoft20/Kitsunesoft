@@ -1,3 +1,4 @@
+
 .rodape{
     height: 40vh;
     width: 100%;
@@ -16,13 +17,13 @@
     justify-content: space-between;
 }
 
-.minibox{
+.miniboxrodape{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     font-size: 18px;
     color: white;
-    width: 30vw;
+    width: 40vw;
 }
 
 .copyright{

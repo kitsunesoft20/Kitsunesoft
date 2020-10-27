@@ -8,7 +8,7 @@ export default function Rodape(){
                 
         <div className="box">
 
-            <div className="minibox">
+            <div className="miniboxrodape">
 
                 <p> Serviços</p>
                 <div className="sep"> </div>

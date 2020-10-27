@@ -21,14 +21,15 @@ export default function Home()  {
 
         <div className="servicos">
 
-            <div className="titservicos"> O que a Kitsune Vet faz </div>
+            <div className="titservicos"> {'{'} O que a Kitsune Vet faz {'}'} </div>
+            <h2> Agende já um de nossos serviços! </h2>
 
             <div className="imgservicos">
 
                 <div className="subbox"> 
                     <img src={hospedagem} width="120px" height="120px" alt="NotFound"/>
                     <div className="minibox"> <h3>Hospedagem</h3> </div>
-                    <div className="A"><button type="button">Agendar</button></div>
+                    <div className="A"> <Link to="/agendamentohospedagem"> <button type="button">Agendar</button> </Link> </div>
                 </div>
 
                 <div className="subbox"> 
@@ -40,19 +41,19 @@ export default function Home()  {
                 <div className="subbox"> 
                     <img src={cirurgia} width="120px" height="120px" alt="NotFound"/>
                     <div className="minibox"> <h3>Cirurgia</h3> </div>
-                    <div className="A"> <button type="button">Agendar</button> </div>
+                    <div className="A"> <Link to="/agendamentocirurgia" > <button type="button">Agendar</button> </Link> </div>
                 </div>
 
                 <div className="subbox">
                     <img src={exames} width="120px" height="120px" alt="NotFound"/>
                     <div className="minibox"> <h3>Exames</h3> </div>
-                    <div className="A"> <button type="button">Agendar</button> </div>
+                    <div className="A"> <Link to="/agendamentoexame" > <button type="button">Agendar</button> </Link> </div>
                 </div>
 
                 <div className="subbox">
                     <img src={banhotosa} width="120px" height="120px" alt="NotFound"/>
                     <div className="minibox"> <h3>Banho e Tosa</h3></div>
-                    <div className="A"> <button type="button">Agendar</button> </div>
+                    <div className="A"> <Link to="/agendamentobanhoetosa" > <button type="button">Agendar</button> </Link> </div>
                 </div>
 
             </div>

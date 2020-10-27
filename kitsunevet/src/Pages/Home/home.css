@@ -103,3 +103,9 @@
     height: 5vh;
     font-weight: bold;
 }
+
+.A button:hover{
+    box-shadow: 5px 5px 5px gray;
+    cursor: pointer;
+    border: goldenrod solid 2px;
+}
