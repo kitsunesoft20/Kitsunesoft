@@ -903,11 +903,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Desktop\\Frei\\1Bruno\\WEB\\Veterinário\\API_VET\\Kitsunesoft\\kitsunevet\\kitsunevet.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Desktop\\Frei\\1Bruno\\WEB\\Veterinário\\API_VET\\KitsuneSoft\\Kitsunesoft\\kitsunevet\\kitsunevet.csproj",
       "projectName": "kitsunevet",
-      "projectPath": "C:\\Users\\User\\Desktop\\Frei\\1Bruno\\WEB\\Veterinário\\API_VET\\Kitsunesoft\\kitsunevet\\kitsunevet.csproj",
+      "projectPath": "C:\\Users\\User\\Desktop\\Frei\\1Bruno\\WEB\\Veterinário\\API_VET\\KitsuneSoft\\Kitsunesoft\\kitsunevet\\kitsunevet.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Desktop\\Frei\\1Bruno\\WEB\\Veterinário\\API_VET\\Kitsunesoft\\kitsunevet\\obj\\",
+      "outputPath": "C:\\Users\\User\\Desktop\\Frei\\1Bruno\\WEB\\Veterinário\\API_VET\\KitsuneSoft\\Kitsunesoft\\kitsunevet\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
