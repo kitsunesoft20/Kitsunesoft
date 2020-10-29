@@ -1,0 +1,33 @@
+*{
+    border: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+@font-face{
+    font-family: chicken;
+    src: url(./fontes/Chicken\ Quiche.otf);
+}
+
+.divnf{
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxnotfound{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    font-family: chicken;
+    font-size: 55px;
+}
+
+.boxnotfound p{
+    font-size: 35px;
+}

@@ -1,11 +1,11 @@
 .menu{
     height: 14vh;
     width: 100%;
-    background-color:SkyBlue;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    background-color: antiquewhite;
 }
 
 .submenu{

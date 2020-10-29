@@ -3,6 +3,8 @@ import React, { useState } from 'react';
 import './cadastrar.css';
 
 import KitsuneVetApi from '../../services/KitsuneVetApi';
+import detalhes from './imagens/detalhes.png';
+import familia from './imagens/familia.png';
 
 const api = new KitsuneVetApi();
 
@@ -49,7 +51,7 @@ export default function Cadastrar()  {
                 <div className="fera">
 
                     <div className="container4">
-                        <img src="../Cadastrar/imagens/detalhes.png" width="300px" height="300px" />
+                        <img src={detalhes} width="300px" height="300px" />
                     </div>
 
                     <div className="container3">
@@ -147,7 +149,7 @@ export default function Cadastrar()  {
                     </div> 
             
                     <div className="container5">
-                        <img src="../Cadastrar/imagens/familia.png" width="300px" height="300px" />
+                        <img src={familia} width="300px" height="300px" />
                     </div>
 
                 </div>
