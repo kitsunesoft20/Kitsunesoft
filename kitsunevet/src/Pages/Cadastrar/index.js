@@ -21,20 +21,20 @@ export default function Cadastrar()  {
     const [Senha, setSenha] = useState('')
 
 
-    const SalvarClick = async () => {
+    const salvarClick = async () => {
         const response = await 
             api.CadastrarCliente({
-                Nome: Nome,
-                Sexo: Sexo,
-                Nascimento: Nascimento,
-                Email: Email,
-                Telefone: Telefone,
-                Cpf: Cpf,
-                Rg: Rg,
-                Endereço: Endereco,
-                Complemento: Complemento,
-                Cep: Cep,
-                Senha: Senha
+                nome: Nome,
+                sexo: Sexo,
+                nascimento: Nascimento,
+                email: Email,
+                telefone: Telefone,
+                cpf: Cpf,
+                rg: Rg,
+                endereço: Endereco,
+                complemento: Complemento,
+                cep: Cep,
+                senha: Senha
             });
 
             alert('Funfou');
@@ -44,23 +44,23 @@ export default function Cadastrar()  {
     return (
         <body>
     
-            <div class="inicio">
+            <div className="inicio">
 
-                <div class="fera">
+                <div className="fera">
 
-                    <div class="container4">
+                    <div className="container4">
                         <img src="../Cadastrar/imagens/detalhes.png" width="300px" height="300px" />
                     </div>
 
-                    <div class="container3">
+                    <div className="container3">
 
-                        <div class="box4"> 
+                        <div className="box4"> 
                             {'{'} Cadastro {'}'}
                         </div>
 
-                        <div class="elsa">
+                        <div className="elsa">
 
-                            <div class="dsformularios">
+                            <div className="dsformularios">
                                 <h4> Nome: </h4>
                                 <h4> Email: </h4>
                                 <h4> Rg: </h4>
@@ -74,7 +74,7 @@ export default function Cadastrar()  {
                                 <h4> Sexo: </h4>
                             </div>
 
-                            <form action="/action_page.php" class="formularios">
+                            <form action="/action_page.php" className="formularios">
                         
                                 <input type="text" name="Nome"
                                     value={Nome}
@@ -127,10 +127,12 @@ export default function Cadastrar()  {
                                 />
 
                                 <select name="Sexo" placeholder="Sexo">
+                                    value={Sexo}
+                                    onChange ={x => setSexo(x.target.value)}
                                     <option value="" disabled selected> </option>
-                                    <option value="feminino"> Feminino </option>
-                                    <option value="masculino"> Masculino </option>
-                                    <option value="Prefiro não dizer"> Prefiro não informar </option>
+                                    <option value="Feminino"> Feminino </option>
+                                    <option value="Masculino"> Masculino </option>
+                                    <option value="Prefiro não informar"> Prefiro não informar </option>
                                     <option value="Outro"> Outro </option>
                                 </select>
 
@@ -138,13 +140,13 @@ export default function Cadastrar()  {
                                                     
                         </div>
 
-                        <div class="ana">
-                            <button onClick={SalvarClick}> Cadastrar </button>
+                        <div className="ana">
+                            <button onClick={salvarClick}> Cadastrar </button>
                         </div>
 
                     </div> 
             
-                    <div class="container5">
+                    <div className="container5">
                         <img src="../Cadastrar/imagens/familia.png" width="300px" height="300px" />
                     </div>
 
