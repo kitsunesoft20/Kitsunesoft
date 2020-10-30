@@ -47,7 +47,7 @@ export default function Cadastrar()  {
         }
 
     return (
-        <body>
+        <div>
 
             <Cabecalho />
     
@@ -163,7 +163,7 @@ export default function Cadastrar()  {
     
             <Rodape />
 
-        </body>
+        </div>
     );
 
 }
