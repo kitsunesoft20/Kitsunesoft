@@ -2,6 +2,9 @@
 import React, { useState } from 'react';
 import './cadastrar.css';
 
+import Cabecalho from '../../Components/Cabecalho'
+import Rodape from '../../Components/Rodape'
+
 import KitsuneVetApi from '../../services/KitsuneVetApi';
 import detalhes from './imagens/detalhes.png';
 import familia from './imagens/familia.png';
@@ -45,6 +48,8 @@ export default function Cadastrar()  {
 
     return (
         <body>
+
+            <Cabecalho />
     
             <div className="inicio">
 
@@ -156,6 +161,8 @@ export default function Cadastrar()  {
 
             </div>
     
+            <Rodape />
+
         </body>
     );
 

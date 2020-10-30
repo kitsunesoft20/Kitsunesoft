@@ -5,7 +5,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    background-color: antiquewhite;
+    background-color: #0e0e7d;
 }
 
 .submenu{
@@ -33,7 +33,7 @@
 }
 
 .itensmenu a:hover{
-    text-shadow: 5px 5px 5px gray;
+    text-shadow: 5px 5px 5px black;
 }
 
 .sep{

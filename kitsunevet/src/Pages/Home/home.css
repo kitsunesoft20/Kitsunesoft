@@ -16,40 +16,6 @@
     src: url(./fontes/Chicken\ Quiche.otf);
 }
 
-.menu{
-    height: 12vh;
-    width: 100%;
-    background-color:SkyBlue;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-}
-
-.submenu{
-    width: 90vw;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    color: black;
-}
-
-.itensmenu{
-    width: 45vw;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    font-size: 21px;
-}
-
-.sep{
-    width: 2px;
-    height: 20px;
-    background-color: black;
-}
-
 .titservicos{
     color: #000000;
     font-size: 45px;
@@ -107,5 +73,5 @@
 .A button:hover{
     box-shadow: 5px 5px 5px gray;
     cursor: pointer;
-    border: goldenrod solid 2px;
+    border: #7255b2 solid 2px;
 }
